@@ -1,0 +1,83 @@
+LOGISTICS PERFORMANCE ANALYSIS
+
+Objective: Investigate root causes of delivery delays and provide data-driven insights and recommendations for operational improvement.
+
+Analysis Overview
+
+As part of a proactive diagnostic initiative, a logistics dataset was provided to assess patterns of delay and identify actionable opportunities. The process followed three key stages:
+
+Data Cleaning: Performed in Excel to ensure consistency and remove noise.
+Data Analysis: Structured within Microsoft SQL Server for deeper querying.
+Data Visualization: Connected to Power BI for interactive insights and pattern detection.
+
+
+Key Insights
+
+1. High Operational Volume, Strained Responsiveness
+
+$299K+ in Transactions and 1,000+ Trips indicate strong operational throughput.
+However, an average waiting time of 35 units and 566 total waiting instances flag bottlenecks.
+
+Implication: Throughput is high, but system responsiveness is lagging; this poses a customer satisfaction and efficiency challenge.
+
+
+2. Delay Disproportionately Impacts High-Value Customers
+
+A scatter plot analysis shows that customers with higher transaction values experience longer delays
+
+Risk: Potential damage to brand perception among top-tier clients.
+Possible Cau: Overloaded premium lanes, unrealistic SLAs, or prioritization misalignment.
+
+3. Delivery Segmentation Reveals SLA Misfit
+
+Cluster patterns reveal that late deliveries are more concentrated among premium spenders.
+
+Insight: Service tier expectations may not be aligned with operational capacity.
+
+4. Customer Type Analysis: Risk & Opportunity
+
+Premium customers receive relatively more reliable service.
+One-time buyers, however, face greater friction, possibly reducing retention.
+
+Opportunity: Improve experience for one-time customers to increase lifetime value.
+
+
+ ✅ Recommendations
+
+1. Optimize Fleet & Routing Efficiency
+
+Reassess current routing logic and increase fleet capacity or routing algorithm efficiency to minimize wait times.
+
+2. Realign SLAs With Capacity
+
+Set realistic expectations for delivery times based on operational limits, especially for premium tiers.
+
+3. Enhance Delay Attribution Accuracy
+
+Improve data tagging and delay categorization to identify true systemic causes (e.g., mechanical, traffic, scheduling).
+
+4. Balance Service Equity Across Customer Segments
+
+Ensure mechanical reliability and resource allocation isn't skewed toward only premium customers.
+
+5. Strengthen Customer Retention Strategy
+
+Convert one-time buyers by offering targeted promotions, tiered guarantees, and priority services during high-demand periods.
+
+6. Prepare for Demand Spikes
+
+Leverage predictive analytics to staff and allocate resources ahead of surge events.
+
+
+
+💡 Strategic Opportunity
+
+Revenue Efficiency Play: By improving service for one-time buyers and converting them to regular/premium customers, revenue can grow without a proportional increase in logistics cost.
+This shift can be scalable and margin-friendly, if supported by data-driven operational planning.
+
+
+Prepared by:
+Oyindamola Dada
+
+
+Let me know if you'd like this exported into a formatted `.txt` or `.docx` file.
